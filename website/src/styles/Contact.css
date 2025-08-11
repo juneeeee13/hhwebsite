@@ -1,0 +1,454 @@
+/* ============================== TEXT OVERWRITES ============================== */
+
+.contact-h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+}
+
+.contact-h2 {
+    font-family: "Urbanist", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700; /* Semi-Bold */
+
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.contact-p {
+    font-family: "Urbanist", sans-serif;
+    color: #A23E8C;
+    font-size: 1.2rem;
+}
+
+.contact-testimonial-p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.15rem;
+}
+
+/* ============================== END OF TEXT OVERWRITES ============================== */
+
+
+/* ============================== CONTACT FORM SECTION ============================== */
+.contact-us-section {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-evenly;
+
+    height: auto;
+    width: auto;
+}
+
+.contact-form-img {
+    box-shadow: 0 1.563rem 1.563rem #DF9DCF;
+    border-radius: 2rem;
+    margin-right: 4rem;
+
+    object-fit: cover;
+    background-size: 180%;
+
+    width: 500px; 
+    height: 400px;
+
+}
+
+.contact-form-div {
+    height: auto;
+    width: auto;
+
+    background-color: #F5F5F5;
+    box-shadow: 0 1.563rem 1.563rem #DF9DCF;
+    border-radius: 2rem;
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+
+    width: auto;
+    height:auto;
+}
+
+.contact-form-fields-div {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.form-left-div {
+    margin-left: 2rem;
+    height:14rem;
+}
+
+.form-right-div {
+    height:14rem;
+}
+
+.contact-submit-button {
+    padding: 0.5rem 1.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+
+    width: 8rem;
+
+    color: #F5F5F5;
+    background: #D02F9E;
+    border: none;
+    border-radius: 0.75rem;
+
+    font-family: "Urbanist", sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    transition: background-color 0.25s;
+}
+
+.contact-submit-button:hover {
+    background: #A23E8C;
+}
+
+.contact-inputs {
+    width: 18rem;
+    height: 2rem;
+
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+
+    font-family: "Work Sans", sans-serif;
+    color: #633160;
+
+    border-radius: 0.5rem;
+    border: 1px solid #633160;
+
+}
+
+.msg-input {
+    max-height: 6rem;
+    min-height: 2rem;
+    width: 18rem;
+    height: 6rem;
+}
+
+.result-message {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+/* ============================== END OF CONTACT FORM SECTION ============================== */
+
+
+/* ============================== TESTIMONIAL SECTION ============================== */
+
+.contact-testimonial-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position:relative;
+
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+
+    height: auto;
+}
+
+.contact-testimonial-content-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+
+    gap: 4rem;
+
+    height: auto;
+}
+
+.contact-testimonial-img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-testimonial-text-div {
+    height: auto;
+    width:  auto;
+    max-width: 50rem;
+}
+
+.contact-testimonial-img {
+    box-shadow: 0 1.563rem 1.563rem #CBEFD7;
+    border-radius: 2rem;
+
+    height: 400px; 
+    width: 400px;
+
+    object-fit: cover;
+    background-size: 180%;
+
+    margin-top: 2rem;
+}
+
+.arrow-button-left, .arrow-button-right {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Ensure perfect centering */
+    
+    cursor: pointer;
+    color: #F5F5F5;
+    background: none;
+    border: none;
+    
+    height: 5rem;
+    width: 5rem;
+    
+    font-family: "Urbanist", sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    
+    transition: all 0.3s ease-in-out;
+}
+
+.arrow-button-left {
+    left: 1rem;
+    rotate: 90deg;
+}
+
+.arrow-button-right {
+    right: 1rem;
+    rotate: -90deg;
+}
+
+.arrow-button-left:hover, .arrow-button-right:hover {
+    color: #CBEFD7;
+}
+
+/* ============================== END OF TESTIMONIAL SECTION ============================== */
+
+
+
+/* ============================== RESPONSIVE SCREEN #1 ============================== */
+
+@media only screen and (max-width: 1600px) {
+    
+    .contact-testimonial-text-div {
+        max-width: 40rem;
+    }
+    
+    .contact-testimonial-img {
+        height: 350px; 
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+
+    
+    .contact-testimonial-content-div {    
+        gap: 3rem;
+    }
+    
+    .contact-testimonial-text-div {
+        max-width: 35rem;
+    }
+    
+    .contact-testimonial-img {
+        height: 350px; 
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+
+    
+    .contact-testimonial-content-div {    
+        gap: 3rem;
+        flex-direction: column-reverse;
+    }
+
+    .contact-testimonial-text-div {
+        max-width: 50rem;
+    }
+    
+    .contact-testimonial-img {
+        height: 400px; 
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    /* ==================== CONTACT FORM SECTION ==================== */
+
+    .contact-us-section {
+        align-items: center;
+    }
+
+    .contact-form-img {
+        height: auto;
+    }
+
+    .contact-form-fields-div {
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .form-left-div {
+        height:auto;
+    }
+
+    .form-right-div {
+        height:auto;
+        margin-left: 1.5rem;
+    }
+
+    /* ==================== END OF CONTACT FORM SECTION ==================== */
+
+
+    /* ==================== TESTIMONIALS SECTION ==================== */
+    
+    .contact-testimonial-text-div {
+        width: 40rem;
+    }
+    
+    .arrow-button-right {
+        height: 4rem;
+        width: 4rem;
+        font-size: 4rem;
+    }
+    
+    .arrow-button-left {
+        height: 4rem;
+        width: 4rem;
+        font-size: 4rem;
+    }
+
+    /* ==================== END OF TESTIMONIALS SECTION ==================== */
+}
+
+@media only screen and (max-width: 1000px) {
+
+    /* ==================== CONTACT FORM SECTION ==================== */
+
+    .contact-h3 {
+        font-size: 1.15rem;
+    }
+
+    .contact-us-section {
+        flex-direction: column;
+    }
+    
+    .contact-form-img {
+        max-width: 450px;
+        max-height: auto;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .contact-form-div {
+        height: auto;
+        width: 450px;
+        margin-top: 3rem;
+    }
+
+    /* ==================== END OF CONTACT FORM SECTION ==================== */
+
+
+    /* ==================== TESTIMONIAL SECTION ==================== */
+    
+    .contact-testimonial-text-div {
+        margin-left: 1rem;
+        width: 38rem;
+    }
+
+    .contact-testimonial-p {
+        font-size: 1rem;
+    }
+
+    .arrow-button-right {
+        height: 3rem;
+        width: 3rem;
+        font-size: 3rem;
+        margin-right: 0.5rem;
+    }
+    
+    .arrow-button-left {
+        height: 3rem;
+        width: 3rem;
+        font-size: 3rem;
+        margin-left: 0.5rem;
+    }
+
+    /* ==================== END OF TESTIMONIAL SECTION ==================== */
+    
+}
+
+@media only screen and (max-width: 900px) {
+
+    .contact-testimonial-text-div {
+        margin-left: 2.5rem;
+        width: 32rem;
+    }
+
+    .contact-h2 {
+        font-size: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .contact-testimonial-text-div {
+        margin-left: 2rem;
+        width: 30rem;
+    }
+
+    .contact-testimonial-img {
+        height: 300px;
+        width: 300px;
+        margin-top: 0rem;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+
+    .contact-testimonial-text-div {
+        margin-left: 0rem;
+        width: 25rem;
+    }
+
+    .arrow-button-right {
+        margin-right: 0rem;
+    }
+    
+    .arrow-button-left {
+        margin-left: 0rem;
+    }
+
+    .contact-h2 {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .contact-testimonial-text-div {
+        width: 20rem;
+    }
+
+}

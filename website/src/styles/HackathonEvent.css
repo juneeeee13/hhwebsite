@@ -1,0 +1,322 @@
+/* ================================================= EVENT OVERVIEW ================================================= */
+.event-overview{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 70px;
+    color: #A23E8C;
+}
+
+.event-overview-img{
+    box-shadow: 0 1.563rem 1.563rem #DF9DCF;
+    border-radius: 2rem;
+    width: auto;
+    height: auto;
+    max-width: 35rem;
+}
+
+.event-overview-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 4rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.event-overview-content-div {
+    width:auto;
+}
+
+/* ================================================= STUDENT PROJECTS  ================================================= */
+
+.student-projects{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 70px;
+    background: #A23E8C;
+}
+
+.student-projects-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.student-projects-div {
+    display: flex;
+    flex-wrap: wrap;          
+    justify-content: center; 
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.student-projects-h2 {
+    color: #CBEFD7;
+}
+
+.student-projects-p {
+    color: #fdfffe;
+}
+
+.slide-container {
+  position: relative;
+  padding-bottom: 40%;
+  height: 0;
+  overflow: hidden;
+}
+
+.student-projects-card {
+    height: auto;
+    width: 20rem;
+    background-color: #F5F5F5;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #DF9DCF;
+    text-align: center;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.student-projects-card:hover {
+    transform: scale(1.05);
+}
+
+.student-projects-img-div {
+    margin-bottom: 1rem;
+}
+
+.student-projects-img {
+    height: 180px;
+    width: 240px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.student-projects-card-title {
+  color: #A23E8C;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.student-projects-card-description {
+  color: #633160;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.student-projects-button {
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+
+    width: 13rem;
+
+    color: #F5F5F5;
+    background: #D02F9E;
+    border: none;
+    border-radius: 0.75rem;
+    font-family: "Urbanist", sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    transition: background-color 0.25s;
+}
+
+.student-projects-button:hover {
+    background: #A23E8C;
+}
+
+.student-projects-cards-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30rem;
+    width: 100%;
+    gap: 6rem;
+}
+
+.student-projects-button-group {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+
+.student-projects-button {
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+
+    width: 13rem;
+
+    color: #F5F5F5;
+    background: #D02F9E;
+    border: none;
+    border-radius: 0.75rem;
+    font-family: "Urbanist", sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    transition: background-color 0.25s;
+}
+
+.student-projects-button:hover {
+    background: #A23E8C;
+}
+
+
+/* ================================================= PARTICIPANT TESTIMONIES ================================================= */
+.participant-testimonies{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 70px;
+    color: #A23E8C;
+}
+
+
+.participant-testimonies-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-align: center;
+}
+
+.participant-testimonies-content-div {
+    width:auto;
+}
+
+.participant-testimonies-h2 {
+    justify-content: center;
+}
+
+.participant-testimonies-p {
+    justify-content: center;
+}
+
+/* ================================================= MENTOR TESTIMONIES ================================================= */
+.mentor-testimonies{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 70px;
+    background: #A23E8C;
+}
+
+
+.mentor-testimonies-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-align: center;
+}
+
+.mentor-testimonies-content-div {
+    width:auto;
+}
+
+.mentor-testimonies-h2 {
+    justify-content: center;
+}
+
+.mentor-testimonies-p {
+    justify-content: center;
+}
+
+.mentor-testimonies-button {
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+
+    width: 13rem;
+
+    color: #A23E8C;
+    background: #CBEFD7;
+    border: none;
+    border-radius: 0.75rem;
+    font-family: "Urbanist", sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    transition: background-color 0.25s;
+}
+
+.mentor-testimonies-button:hover {
+    background: #DF9DCF;
+}
+
+.mentor-testimonies-h2 {
+    color: #CBEFD7;
+}
+
+.mentor-testimonies-p {
+    color: #fdfffe;
+}
+
+/* ================================================= JUDGE TESTIMONIES ================================================= */
+.judge-testimonies{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 70px;
+    color: #A23E8C;
+}
+
+
+.judge-testimonies-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-align: center;
+}
+
+.judge-testimonies-content-div {
+    width:auto;
+}
+
+.judge-testimonies-h2 {
+    justify-content: center;
+}
+
+.judge-testimonies-p {
+    justify-content: center;
+}
+
+.judge-testimonies-button {
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+
+    width: 13rem;
+
+    color: #F5F5F5;
+    background: #D02F9E;
+    border: none;
+    border-radius: 0.75rem;
+    font-family: "Urbanist", sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    transition: background-color 0.25s;
+}
+
+.judge-testimonies-button:hover {
+    background: #A23E8C;
+}

@@ -1,0 +1,261 @@
+
+/* ============================== HISTORY SECTION ============================== */
+
+.about-history-section {
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+
+    gap: 2rem;
+
+    height: auto;
+}
+
+.about-history-img {
+    box-shadow: 0 1.563rem 1.563rem #DF9DCF;
+    border-radius: 2rem;
+
+    height: auto;
+    width: auto; 
+    max-width: 600px; 
+}
+
+.about-history-content-div {
+    margin-left: 5rem;
+    width:  45rem;
+}
+
+/* ============================== END OF HISTORY SECTION ============================== */
+
+
+/* ============================== ABOUT FOUNDERS SECTION ============================== */
+
+.about-founders-section {
+    display: flex;
+    flex-direction: row;
+
+    align-content: center;
+    align-items: center;
+    justify-content: left;
+
+    height: auto;
+    gap: 5rem;
+    padding:5rem;
+    align-content: center;
+}
+
+.about-founders-content-div {
+    width:  auto;
+    height: auto;
+}
+
+.about-founders-img {
+
+    align-self: center;
+
+    box-shadow: 0 1.563rem 1.563rem #CBEFD7;
+    border-radius: 2rem;
+
+    height: auto;
+    width: auto; 
+    max-width: 700px; 
+}
+
+/* ============================== END OF ABOUT FOUNDERS SECTION ============================== */
+
+
+/* ============================== ABOUT CURRENT BOARD SECTION ============================== */
+
+.indent {
+    margin-left: 5.5rem;
+}
+
+.about-h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.about-board-h2 {
+    text-align: center;
+    margin-right: 5.5rem;
+    margin-top: 2rem;
+}
+
+.about-board-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.about-board-card {
+    background-color: #F5F5F5;
+    box-shadow: 0rem 1.3rem 1.5rem #DF9DCF;
+    border-radius: 2rem;
+    
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 25rem;
+    width: 19.5rem;
+
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+.about-board-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0rem 1rem 1.5rem #A23E8C;
+}
+
+.about-board-card-img {
+
+    margin-bottom: 1rem;
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    width: 10rem;
+    height: 10rem;
+}
+
+.about-early-milestones-button {
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+
+    width: 15rem;
+
+    color: #F5F5F5;
+    background: #D02F9E;
+    border: none;
+    border-radius: 0.75rem;
+
+    font-family: "Urbanist", sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    transition: background-color 0.25s;
+}
+
+.about-early-milestones-button:hover {
+    background: #A23E8C;
+}
+
+/* ============================== END OF ABOUT CURRENT BOARD SECTION ==============================*/
+
+
+/* ============================== RESPONSIVE SCREEN #1 ============================== */
+
+@media only screen and (max-width: 1300px) {
+
+    /* ========== HISTORY SECTION ========== */
+    
+    .about-history-section {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap:4rem;
+    }
+
+    .about-history-content-div {
+        width: auto;
+    }
+
+    .about-history-img {
+        margin-top: 2rem;
+    }
+
+    /* ========== END OF HISTORY SECTION ========== */
+
+
+    /* ========== FOUNDERS SECTION ========== */
+
+    .about-founders-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0rem;
+    }
+
+    /* ========== END OF HISTORY SECTION ========== */
+
+}
+
+/* ============================== END OF RESPONSIVE SCREEN #1 ============================== */
+
+
+/* ============================== RESPONSIVE SCREEN #2 ============================== */
+
+@media only screen and (max-width: 1100px) {
+
+    /* ========== HISTORY SECTION ========== */
+
+    .about-history-content-div {
+        width: auto;
+        margin: 0.2rem;
+    }
+
+    .about-history-img {
+        margin-top: 2rem;
+        width: 30rem;
+    }
+
+    /* ========== END OF HISTORY SECTION ========== */
+
+
+    /* ========== FOUNDERS SECTION ========== */
+    
+    .about-founders-img {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        width: 30rem;
+    }
+
+    .about-founders-content-div {
+        margin-bottom: 5rem;
+        width: auto;
+    }
+
+    .about-board-h2 {
+        margin-right: 2rem;
+    }
+
+    /* ========== END OF HISTORY SECTION ========== */
+
+}
+
+/* ============================== END OF RESPONSIVE SCREEN #2 ============================== */
+
+@media only screen and (max-width: 1000px) {
+
+    .about-board-h2 {
+        text-align: center;
+        font-size: 2rem;
+        margin-right: 0rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .about-board-h2 {
+        text-align: center;
+        font-size: 1rem;
+        margin-right: 0rem;
+    }
+
+}

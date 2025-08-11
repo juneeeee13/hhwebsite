@@ -1,0 +1,25 @@
+**download react router dom package**:
+``npm install react-router-dom``
+
+**download boostrap**:
+``npm install react-bootstrap bootstrap``
+
+**download calendar packages**:
+``npm install react-big-calendar moment``
+``npm install --save-dev @types/react-big-calendar ``
+
+**download timeline component**:
+``npm install react-vertical-timeline-component``
+
+**download react icons**:
+``npm install react-icons``
+
+**download music player minimization animation**:
+``npm install framer-motion``
+
+**download web3form plugin**:
+`npm install @web3forms/react`
+`npm install react-hook-form`
+
+**TO FIX VULNERABILITIES**:
+`npm audit fix`

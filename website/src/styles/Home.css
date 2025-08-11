@@ -1,0 +1,404 @@
+.photo-gallery-header {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 40rem;
+    overflow: hidden;
+}
+  
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+  
+.image-container img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: opacity 0.5s ease-in-out;
+}
+  
+.image-container img.hidden {
+    opacity: 0;
+}
+  
+.image-container img.active {
+    opacity: 1;
+}
+  
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+  
+.heart {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: #bbb;
+    transform: rotate(-45deg);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 10px;
+    margin-right: 20px;
+}
+  
+.heart::before,
+.heart::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: inherit;
+    border-radius: 50%;
+}
+  
+.heart::before {
+    top: -10px;
+    left: 0;
+}
+  
+.heart::after {
+    top: 0;
+    left: 10px;
+}
+  
+.heart.active {
+    background-color: #633160;
+}
+  
+.heart:hover {
+    background-color: #633160;
+}
+  
+.heart.left {
+    margin-right: 10px;
+}
+  
+.heart.right {
+    margin-left: 10px;
+}
+
+.club-overview{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 70px;
+    color: #A23E8C;
+}
+
+.club-overview-img{
+    box-shadow: 0 1.563rem 1.563rem #DF9DCF;
+    border-radius: 2rem;
+    width: auto;
+    height: auto;
+    max-width: 35rem;
+}
+
+.club-overview-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 4rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.club-overview-content-div {
+    width:auto;
+}
+
+.mission-statement{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 70px;
+    background: #A23E8C;
+}
+
+.mission-statement-img{
+    box-shadow: 0 1.563rem 1.563rem #CBEFD7;
+    border-radius: 2rem;
+
+    object-fit: cover;
+    object-position: 0% 35%;
+
+    width: 26rem;
+    height: 26rem;
+}
+
+.mission-statement-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 4rem;
+    padding-bottom: 5rem;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 5rem;
+}
+
+.mission-statement-content-div {
+    width: auto;
+}
+
+.mission-statement-h2 {
+    color: #CBEFD7;
+}
+
+.mission-statement-p {
+    color: #fdfffe;
+}
+
+.recent-events-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.recent-events-h2 {
+    color: #A23E8C;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.recent-events-p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.2rem;
+    color: #fdfffe;
+}
+
+.recent-events-cards-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30rem;
+    width: 100%;
+    gap: 6rem;
+}
+
+.recent-events-card {
+    height: auto;
+    width: 20rem;
+    background-color: #F5F5F5;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #DF9DCF;
+    text-align: center;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.recent-events-card:hover {
+    transform: scale(1.05);
+}
+
+.recent-events-img-div {
+    margin-bottom: 1rem;
+}
+
+.recent-events-img {
+    width: auto;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.recent-events-card-title {
+  color: #A23E8C;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.recent-events-card-description {
+  color: #633160;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+}
+  
+
+.join-us {
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-size: 70px;
+  background: #DF9DCF;
+}
+
+.join-us-img {
+    box-shadow: 0 1.563rem 1.563rem #CBEFD7;
+    border-radius: 2rem;
+    width: 26rem;
+    height: auto;
+    position: 0% 100% 0% 100%;
+}
+
+.join-us-container {
+    display: flex;
+    align-items: center;
+  
+    gap: 5rem;
+
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+
+.join-statement-div {
+    width: auto;
+}
+
+.bold-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fdfffe;
+}
+
+.arrow-left, .arrow-right {
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+    
+    cursor: pointer;
+    color: #A23E8C;
+    background: none;
+    border: none;
+    
+    height: 5rem;
+    width: 5rem;
+    
+    font-family: "Urbanist", sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    
+    transition: all 0.3s ease-in-out;
+}
+
+.arrow-left {
+    left: 1rem;
+    rotate: 90deg;
+}
+
+.arrow-right {
+    right: 1rem;
+    rotate: -90deg;
+}
+
+.arrow-left:hover, .arrow-right:hover {
+    color: #DF9DCF;
+}
+
+/* ================================================== RESPONSIVE SCREEN #1 ================================================== */
+
+@media only screen and (max-width: 1500px) {
+    .recent-events-cards-div {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 2.5rem;
+    }
+
+    .recent-events-card {
+        width: 50rem;
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .recent-events-text-div {
+        align-self: center;
+    }
+}      
+
+
+/* ================================================== RESPONSIVE SCREEN #2 ==================================================*/
+
+@media only screen and (max-width: 1300px) {
+    .club-overview-container {
+        flex-direction: column;
+        margin:0rem;
+        padding: 5rem 4rem;
+    }
+
+    .club-overview-img {
+        margin: 0rem;
+        max-width: 26rem;
+    }
+
+    .mission-statement-container {
+        flex-direction: column-reverse;
+        margin: 0rem;
+        padding: 5rem 4rem;
+    }
+
+    .join-us-container {
+        flex-direction: column-reverse;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        gap: 2rem;
+    }
+
+    .recent-events-card {
+        width: 40rem;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .recent-events-card {
+        width: 35rem;
+    }
+
+    .recent-events-img-div {
+        height: 10rem;
+        align-self: center;
+        align-content: center;
+        margin: 0rem;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 875px) {
+
+    .recent-events-h2 {
+        font-size: 1.5rem;
+    }
+
+    .recent-events-card {
+        flex-direction: column;
+        width: 17rem;
+        gap: 1.5rem;
+    }
+
+    .recent-events-img-div {
+        margin-bottom: 0rem;
+    }
+
+    .recent-events-img {
+        height: 10rem;
+    }
+
+    .arrow-left, .arrow-right {
+        font-size: 3rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+}

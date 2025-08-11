@@ -1,0 +1,31 @@
+.harmony-schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #D2F3DF; /* pastel green */
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 12px #9fe7c660;
+}
+
+.harmony-schedule-table th,
+.harmony-schedule-table td {
+  padding: 1rem;
+  border: 1px solid #b2e8cb;
+  text-align: left;
+  font-family: "Urbanist", sans-serif;
+}
+
+.harmony-schedule-table th {
+  background-color: #b6ebd3;
+  color: #274d3d;
+  font-size: 1.1rem;
+}
+
+.harmony-schedule-table td {
+  color: #274d3d;
+  font-size: 1rem;
+}
+
+.harmony-schedule-table tr:nth-child(even) {
+  background-color: #e7f9f0;
+}

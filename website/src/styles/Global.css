@@ -1,0 +1,245 @@
+
+/* ======================================== START OF NAV BAR CSS ======================================== */
+
+.custom-navbar {
+  background-color: #633160 !important;
+  box-shadow: 0 0.3rem 2rem #482c47;
+  flex-direction: row;
+  align-items: left;
+  height: 4.75rem;
+}
+
+
+.custom-navbar.scrolled {
+  padding: 10px 0;
+}
+
+#offcanvasNavbar {
+  background-color: #633160 !important; 
+}
+
+#offcanvasNavbarLabel {
+  font-family: 'Bungee', sans-serif;
+  font-style: normal;
+  font-size: 1.7rem;
+  color:aliceblue;
+  display: flex;
+  padding:0.5rem;
+}
+
+.custom-offcanvas.offcanvas-end {
+  width: 250px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo {
+  width: 50px;  /* Adjust size */
+  height: 50px; /* Adjust size */
+
+  background-image: url('/website/assets/logos/harmonyHacksLogoNoText.png'); /* Path to the logo */
+  background-size: cover; 
+  background-position: center;  /* Position the image in the center */
+  background-size: 150%;
+
+  margin-left: 2.5rem;  /* Space between logo and brand text */
+  margin-right: 1.5rem;
+  border-radius: 50%; /* crops image as circle */
+}
+
+.custom-navbar .navbar-brand {
+
+  font-family: 'Bungee', sans-serif;
+  font-style: normal;
+  font-size: 1.7rem;
+
+  display: flex;
+  /*align-items: center;*/
+  padding:0.5rem;
+}
+
+.custom-navbar .nav-link {
+  color:#fff2fe;
+  font-size: 1.5rem;
+}
+
+/* Ensure the button has hover effect */
+.navbar-button {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  
+  padding: 10px 10px;
+  min-width: 160px;
+  text-align: center;
+
+  border-radius: 30px; 
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff2fe !important; /* Ensures default text color */
+}
+
+/* Hover effect: Make sure it applies */
+.custom-navbar .nav-link.navbar-button:hover {
+  background-color: #BCACCA !important; /* Light purple */
+  color: #633160 !important; /* Darker purple text */
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navbar-button.active {
+  background-color: #BCACCA !important; /* Light purple */
+  color: #633160 !important; /* Darker purple text */
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+/* ======================================== END OF NAV BAR CSS ======================================== */
+
+
+/* ======================================== SCROLL BAR ELEMENTS ======================================== */
+
+::-webkit-scrollbar {
+  width: 0.75rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DF9DCF;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F2AAD7;
+}
+
+body {
+  overflow-x: hidden
+}
+
+/* ======================================== END OF SCROLL BAR ELEMENTS ======================================== */
+
+
+/* ======================================== COLORS AND HEADING PRESETS ======================================== */
+
+.page-h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 3rem;
+}
+
+.page-h2 {
+  font-family: "Urbanist", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700; /* Semi-Bold */
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.page-h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.page-p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.15rem;
+  text-decoration: none;
+}
+
+/* use this to make text h1 green */
+.color-green {
+  color: #CBEFD7;
+}
+
+/* use this to make h1,h2 purple */
+.color-purple {
+  color: #A23E8C;
+}
+
+/* use this to make paragraph text dark purple */
+.color-darkpurple {
+  color: #633160;
+}
+
+/* use this to make paragraph text white */
+.color-white {
+  color: #F5F5F5;
+}
+
+/* use this to make paragraph text pink */
+.color-pink {
+  color: #D02F9E;
+}
+
+/* use this to make a section purple */
+.section-purple {
+  background: #A23E8C;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+/* ======================================== END OF COLORS AND HEADING PRESETS ======================================== */
+
+/* ======================================== FOOTER ELEMENTS ========================================================== */
+
+/* Footer.css */
+.footer {
+  background-color: #633160; 
+  color: white;
+  text-align: center;
+}
+
+.footer .container {
+  padding: 1rem;
+}
+
+.footer h5 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem; /* Optional: adds space between logos */
+  align-items: center;
+}
+
+.footer img {
+  scale: 75%
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.footer .bottom-bar {
+  background-color: #633160; /* Bootstrap secondary equivalent */
+  padding: 0.75rem;
+}
+
+.harmony-schedule-table td:first-child {
+  color: #633160;
+  font-style: italic;
+  font-weight: normal;
+}

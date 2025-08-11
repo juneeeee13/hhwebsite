@@ -1,0 +1,407 @@
+/* ================================================= HACKATHON EVENT  ================================================= */
+.hackathon-event-section {
+  padding: 2rem 5rem 5rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  text-align: center;
+  flex-direction: column;
+}
+
+.event-recap-button-group {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    justify-content: center;
+  align-items: center;
+}
+
+
+.event-recap-button {
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+
+    width: 13rem;
+
+    color: #F5F5F5;
+    background: #D02F9E;
+    border: none;
+    border-radius: 0.75rem;
+    font-family: "Urbanist", sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    transition: background-color 0.25s;
+}
+
+.event-recap-button:hover {
+    background: #A23E8C;
+}
+
+/* ================================================= HACKATHON GUIDE  ================================================= */
+
+.hackathon-guide-section {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+}
+
+.hackathon-guide-img-div {
+    height: auto;
+    width: 17rem;
+}
+
+.hackathon-guide-img {
+    align-self: center;
+    border-radius: 1rem;
+
+    height: auto;
+    width: auto; 
+    max-width: 15rem;
+
+    margin-top:2rem;
+    margin-right: 2rem;
+}
+
+.hackathon-guide-content-div {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    height: auto;
+    gap: 2rem;
+}
+
+.story-column {
+  flex: 1 1 45%;
+  background-color:  #633160;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px #df9dcf60;
+  min-width: 300px;
+}
+
+/* ================================================= BENEFITS ================================================= */
+.benefits {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 70px;
+    background: #A23E8C;
+}
+
+.benefits-img{
+    box-shadow: 0 1.563rem 1.563rem #CBEFD7;
+    border-radius: 2rem;
+
+    object-fit: cover;
+    object-position: 0% 35%;
+
+    width: 26rem;
+    height: 26rem;
+}
+
+.benefits-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 4rem;
+    padding-bottom: 5rem;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 5rem;
+}
+
+.benefits-content-div {
+    width: auto;
+}
+
+.benefits-h2 {
+    color: #CBEFD7;
+}
+
+.benefits-p {
+    color: #fdfffe;
+}
+
+.custom-bullet-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.custom-bullet-list li::before {
+  content: "✧₊˚━━  ";
+  font-weight: bold;
+}
+
+/* ================================================= WHO ================================================= */
+.who{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 70px;
+    color: #A23E8C;
+}
+
+.who-img{
+    box-shadow: 0 1.563rem 1.563rem #DF9DCF;
+    border-radius: 2rem;
+    width: auto;
+    height: auto;
+    max-width: 35rem;
+}
+
+.who-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 4rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.who-content-div {
+    width:auto;
+}
+
+/* ================================================= HACKATHON GALLERY ================================================= */
+
+.hackathon-gallery-h2 {
+    text-align: center;
+    margin-left: 0rem;
+    color: #633160;
+}
+
+.hackathon-gallery-section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    align-content: center;
+    background: #DF9DCF;
+}
+
+.hackathon-gallery-container {
+
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+
+    columns: 4;
+    column-gap: 1rem;
+    align-content: center;
+}
+
+.hackathon-gallery-container .box-img {
+    width:100%;
+    break-inside: avoid;
+}
+
+.hackathon-gallery-img {
+    border-radius: 1rem;
+
+    height: auto;
+    width: 24rem;
+
+    margin-bottom: 1rem;
+}
+
+/* =============== SCHEDULE TABLE =============== */
+
+.harmony-schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #D2F3DF; /* pastel green */
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 12px #9fe7c660;
+}
+
+.harmony-schedule-table th,
+.harmony-schedule-table td {
+  padding: 1rem;
+  border: 1px solid #b2e8cb;
+  text-align: left;
+  font-family: "Urbanist", sans-serif;
+}
+
+.harmony-schedule-table th {
+  background-color: #b6ebd3;
+  color: #274d3d;
+  font-size: 1.1rem;
+}
+
+.harmony-schedule-table td {
+  color: #274d3d;
+  font-size: 1rem;
+}
+
+.harmony-schedule-table tr:nth-child(even) {
+  background-color: #e7f9f0;
+}
+
+.harmony-schedule-table tr:first-child td {
+  font-weight: bold;
+}
+
+.green-link {
+  color: #b6ebd3;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+
+
+/* ================================================= GALLERY MODAL CSS ================================================= */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #633160cc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.modal-image {
+    margin-top: 5rem;
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 63316080;
+}
+
+/* ================================================= RESPONSIVE SCREEN #1 ================================================= */
+
+@media only screen and (max-width: 1600px) {
+
+    /* ============= HACKATHON GALLERY  ============= */
+    
+    .hackathon-gallery-container {
+        width: 1350px;
+        margin-right:1rem;
+    }
+    
+    .hackathon-gallery-container .box-img {
+        width: 1350px;
+    }
+    
+    .hackathon-gallery-img {
+        width: 20rem;
+    }
+}
+
+/* ================================================= RESPONSIVE SCREEN #2 ================================================= */
+
+@media only screen and (max-width: 1350px) {
+
+    /* ============= HACKATHON GALLERY  ============= */
+    
+    .hackathon-gallery-container {
+        width: 1100px;
+    }
+    
+    .hackathon-gallery-container .box-img {
+        width: 1100px;
+    }
+    
+    .hackathon-gallery-img {
+        width: 16rem;
+    }
+}
+
+/* ================================================= RESPONSIVE SCREEN #3 ================================================= */
+
+@media only screen and (max-width: 1100px) {
+
+    /* ============= HACKATHON GUIDE  ============= */
+
+    .hackathon-guide-content-div {
+        flex-direction: column;
+    }
+
+    .hackathon-guide-img {
+        align-self: center;
+        margin-top: 0rem;
+        margin-right: 0rem;
+    }
+
+    /* ============= HACKATHON GALLERY  ============= */
+
+    .hackathon-gallery-container {
+        width: 850px;
+    }
+    
+    .hackathon-gallery-container .box-img {
+        width: 850px;
+    }
+    
+    .hackathon-gallery-img {
+        width: 13rem;
+    }
+
+    .hackathon-gallery-h2 {
+        font-size: 2rem;
+    }
+
+}
+
+/* ================================================= RESPONSIVE SCREEN #4 ================================================= */
+
+@media only screen and (max-width: 850px) {
+
+    /* ============= HACKATHON GALLERY  ============= */
+
+    .hackathon-gallery-container {
+        width: 700px;
+        columns: 3;
+        padding-left: 0.5rem;
+    }
+    
+    .hackathon-gallery-container .box-img {
+        width: 700px;
+    }
+    
+    .hackathon-gallery-img {
+        width: 14rem;
+    }
+
+    .hackathon-gallery-h2 {
+        font-size: 1.5rem;
+    }
+
+}
+
+/* ================================================= RESPONSIVE SCREEN #5 ================================================= */
+
+@media only screen and (max-width: 700px) {
+
+    /* ============= HACKATHON GALLERY  ============= */
+
+    .hackathon-gallery-container {
+        width: 550px;
+    }
+    
+    .hackathon-gallery-container .box-img {
+        width: 550px;
+    }
+    
+    .hackathon-gallery-img {
+        width: 11rem;
+    }
+
+    .hackathon-gallery-h2 {
+        font-size: 1.3rem;
+    }
+
+}

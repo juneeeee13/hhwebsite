@@ -1,0 +1,54 @@
+/* HarmonySchedule.css */
+
+.harmony-schedule-section {
+  width: 100%;
+  padding: 3rem 1rem;
+  background-color: #f0fcf6; /* keep your soft green */
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(99, 49, 96, 0.2); /* soft purple shadow */
+  overflow-x: auto;
+}
+
+.harmony-schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Table headers: bold and styled */
+.harmony-schedule-table th {
+  font-weight: bold;
+  font-size: 1.05rem;
+  background-color: #d9f0e3;
+  color: #633160; /* your dark purple */
+  padding: 1rem;
+  text-align: left;
+}
+
+/* Table cells: not bold */
+.harmony-schedule-table td {
+  font-weight: normal;
+  padding: 1rem;
+  background-color: #f0fcf6;
+  border-bottom: 1px solid #d9f0e3;
+}
+
+/* Optional: alternate row shading for clarity */
+.harmony-schedule-table tbody tr:nth-child(even) td {
+  background-color: #e7f7ee;
+}
+
+/* First column (Day) — normal text, not bold */
+.harmony-schedule-table td:first-child {
+  font-weight: normal;
+  color: #633160;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+/* Force td to not inherit bold weight from unexpected sources */
+.harmony-schedule-table td {
+  font-weight: normal !important;
+}
