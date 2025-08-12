@@ -2,14 +2,11 @@ name: Deploy Vite site to GitHub Pages
 
 on:
   push:
-    branches: [ main ]   # runs when you push to main branch
+    branches: [ main ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: website  # all commands run inside website/
     steps:
       - uses: actions/checkout@v4
 
@@ -17,12 +14,18 @@ jobs:
         with:
           node-version: 18
 
+      # Install dependencies in website/
       - run: npm ci
-      - run: npm run build
+        working-directory: website
 
+      # Build project in website/
+      - run: npm run build
+        working-directory: website
+
+      # Upload the built site from website/dist
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: website/dist   # path to built files
+          path: website/dist
 
   deploy:
     runs-on: ubuntu-latest
