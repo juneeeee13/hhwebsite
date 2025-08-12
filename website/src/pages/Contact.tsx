@@ -41,12 +41,11 @@ const Form = () => {
 
   return (
     <section className="contact-us-section">
-      <div className="contact-us-div">
-
-      </div>
       <div>
         <img className="contact-form-img" src="/website/assets/pictures/firstStudentOrgFair/firstStudentOrgFair5.jpg" alt="Contact Us Form Picture" />
+        <img className="contact-form-img" src="/website/assets/pictures/firstStudentOrgFair/firstStudentOrgFair4.jpg" alt="Contact Us Form Picture" />
       </div>
+      
       <br></br>
       <div className="contact-form-div">
         <h3 className="contact-h3 color-darkpurple">
