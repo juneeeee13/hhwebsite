@@ -3,7 +3,7 @@ import { Calendar, momentLocalizer, Event as CalendarEvent } from "react-big-cal
 import moment from "moment";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import "../styles/Calendar.css";
-import Events from "../Data/events.json";
+import Events from "../data/Events.json";
 import FilterTabs from "./FilterTabs";
 
 // Set up localizer for react-big-calendar using moment.js

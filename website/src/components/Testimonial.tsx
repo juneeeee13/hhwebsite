@@ -1,6 +1,6 @@
 import '../styles/Global.css';
 import { useState } from "react";
-import contactData from "../Data/Testimonials.json";
+import contactData from "../data/Testimonials.json";
 
 type Testimonial = {
   testimonial_id: number;
