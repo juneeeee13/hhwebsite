@@ -2,14 +2,14 @@ name: Deploy Vite site to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main ]   # runs when you push to main branch
 
 jobs:
   build:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: website
+        working-directory: website  # all commands run inside website/
     steps:
       - uses: actions/checkout@v4
 
@@ -22,7 +22,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: website/dist   # path to built files
 
   deploy:
     runs-on: ubuntu-latest
