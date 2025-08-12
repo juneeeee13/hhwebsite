@@ -26,7 +26,7 @@ const images = [
 
 const PhotoGalleryHeader: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const intervalRef = React.useRef<number | null>(null);
+  const intervalRef = React.useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => {
     const startAutoSlide = () => {
