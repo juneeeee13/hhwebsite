@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Node.js
@@ -23,10 +23,15 @@ jobs:
           cd website
           npm install
 
-      - name: Build website
+      - name: Build project
         run: |
           cd website
           CI=true npm run build
+
+      - name: Clean git working directory
+        run: |
+          git clean -fdx
+          git reset --hard
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -35,3 +40,6 @@ jobs:
           publish_dir: ./website/dist
           force_orphan: true
           allow_empty_commit: true
+          debug: true
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
