@@ -5,7 +5,7 @@ const isProduction = process.env.NODE_ENV === 'production'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: isProduction ? '/hhwebsite/' : '/website/',// must match repo name for GitHub Pages
+  base: isProduction ? '/hhwebsite/' : '/',
   plugins: [react()],
   server: {
     host: '0.0.0.0',
