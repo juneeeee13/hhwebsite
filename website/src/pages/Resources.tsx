@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../styles/Resources.css";
-import resourceData from "../Data/Resources.json";
+import resourceData from "../data/Resources.json";
 import { FaArrowLeft } from "react-icons/fa";
 
 interface Resource {

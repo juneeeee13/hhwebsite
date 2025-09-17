@@ -45,6 +45,7 @@ const Form = () => {
       <div>
         <img className="contact-form-img" src="/assets/pictures/firstStudentOrgFair/firstStudentOrgFair5.jpg" alt="Contact Us Form Picture" />
       </div>
+      
       <br></br>
       <div className="contact-form-div">
         <h3 className="contact-h3 color-darkpurple">
