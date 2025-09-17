@@ -320,3 +320,24 @@
 .judge-testimonies-button:hover {
     background: #A23E8C;
 }
+
+@media (max-width: 900px) {
+  .event-overview-container {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  .event-overview-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .student-projects-div {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .student-projects-card {
+    width: 100%;
+    max-width: 100%;
+  }
+}

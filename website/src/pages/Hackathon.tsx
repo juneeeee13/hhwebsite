@@ -27,7 +27,7 @@ const Register = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <button className="event-recap-button">♡ Register Here ♡</button>
+                        <button className="event-recap-button">♡ High School Students: Register Here ♡</button>
                       </a>
                 </div>
             </div>
@@ -102,7 +102,7 @@ const Who = () => {
             </p>
         </div>
         <div>
-            <img className="who-img" src="/website/assets/pictures/firstHackathon/firstWomensHackathonShowcase10.jpg" />
+            <img className="who-img" src="/assets/pictures/firstHackathon/firstWomensHackathonShowcase10.jpg" />
             </div>
       </div>
     </section>
@@ -115,7 +115,7 @@ const Benefits = () => {
     <section className="benefits">
       <div className="benefits-container">
         <div>
-          <img className="benefits-img" src="/website/assets/pictures/firstHackathon/firstWomensHackathonShowcase6.jpg" />
+          <img className="benefits-img" src="/assets/pictures/firstHackathon/firstWomensHackathonShowcase6.jpg" />
         </div>
         <div className="benefits-content-div">
             <h2 className="page-h2 benefits-h2">♡ Why Should I Participate in This Event?</h2>

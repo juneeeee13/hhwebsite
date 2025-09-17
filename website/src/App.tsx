@@ -23,7 +23,7 @@ localStorage.clear();
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter basename="/website">
+    <BrowserRouter>
       <InnerApp />
     </BrowserRouter>
   );

@@ -20,7 +20,7 @@ const Register = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <button className="event-recap-button">♡ Register Here ♡</button>
+                        <button className="event-recap-button">♡ High School Students Register Here ♡</button>
                       </a>
                 </div>
             </div>

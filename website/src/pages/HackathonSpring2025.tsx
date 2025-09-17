@@ -19,7 +19,7 @@ const EventOverview = () => {
     <section className="event-overview">
       <div className="event-overview-container">
         <div>
-          <img className="event-overview-img" src="/website/assets/pictures/firstHackathon/firstWomensHackathonShowcase4.jpg" />
+          <img className="event-overview-img" src="/assets/pictures/firstHackathon/firstWomensHackathonShowcase4.jpg" />
           <Link to="/spring2025gallery">
             <button className="event-recap-button">♡ Gallery ♡</button>
         </Link>

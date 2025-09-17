@@ -52,5 +52,95 @@
     "location": "Viasat Engineering Pavillion 5107",
     "type": "Misc",
     "description": "Come and listen to the Harmony Hacks board candidates' campaign, and vote for positions for next semester!"
+  },
+  {
+    "id": "7",
+    "title": "Hackathon Kickoff",
+    "start": "2025-11-08T09:00:00",
+    "end": "2025-11-08T15:00:00",
+    "location": "TBD",
+    "type": "Hackathons",
+    "description": "Join us for the first day of our Hackathon! Kickoff starts at 9 AM with opening ceremonies, followed by hacking, workshops, and fun activities throughout the day. Don't forget to bring your creativity and enthusiasm!"
+  },
+  {
+    "id": "8",
+    "title": "Hackathon Showcase",
+    "start": "2025-11-15T14:00:00",
+    "end": "2025-11-15T20:00:00",
+    "location": "TBD",
+    "type": "Hackathons",
+    "description": "Join us for the second day of our Hackathon! Showcase starts at 2 PM with project presentations, followed by judging, awards, and closing ceremonies. Celebrate the hard work and creativity of all participants!"
+  },
+  {
+    "id": "9",
+    "title": "GBM 1",
+    "start": "2025-09-16T12:00:00",
+    "end": "2025-09-16T13:00:00",
+    "location": "Markstein 103",
+    "type": "GBM Events",
+    "description": "First General Body Meeting of the semester!"
+  },
+  {
+    "id": "10",
+    "title": "GBM 2",
+    "start": "2025-09-26T09:00:00",
+    "end": "2025-09-26T10:00:00",
+    "location": "Markstein 103",
+    "type": "GBM Events",
+    "description": "Second General Body Meeting of the semester!"
+  },
+  {
+    "id": "11",
+    "title": "GBM 3",
+    "start": "2025-09-30T12:00:00",
+    "end": "2025-09-30T13:00:00",
+    "location": "Markstein 103",
+    "type": "GBM Events",
+    "description": "Third General Body Meeting of the semester!"
+  },
+  {
+    "id": "12",
+    "title": "GBM 4",
+    "start": "2025-10-10T09:00:00",
+    "end": "2025-10-10T10:00:00",
+    "location": "Markstein 103",
+    "type": "GBM Events",
+    "description": "Fourth General Body Meeting of the semester!"
+  },
+  {
+    "id": "13",
+    "title": "GBM 5",
+    "start": "2025-10-14T12:00:00",
+    "end": "2025-10-14T13:00:00",
+    "location": "Markstein 103",
+    "type": "GBM Events",
+    "description": "Fifth General Body Meeting of the semester!"
+  },
+  {
+    "id": "14",
+    "title": "GBM 6",
+    "start": "2025-10-24T09:00:00",
+    "end": "2025-10-24T10:00:00",
+    "location": "Markstein 103",
+    "type": "GBM Events",
+    "description": "Sixth General Body Meeting of the semester!"
+  },
+  {
+    "id": "15",
+    "title": "GBM 7",
+    "start": "2025-10-28T12:00:00",
+    "end": "2025-10-28T13:00:00",
+    "location": "Markstein 103",
+    "type": "GBM Events",
+    "description": "Seventh General Body Meeting of the semester!"
+  },
+  {
+    "id": "16",
+    "title": "GBM 8",
+    "start": "2025-11-07T09:00:00",
+    "end": "2025-11-07T10:00:00",
+    "location": "Markstein 103",
+    "type": "GBM Events",
+    "description": "Eigth General Body Meeting of the semester!"
   }
 ]

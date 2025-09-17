@@ -41,11 +41,9 @@ const Form = () => {
 
   return (
     <section className="contact-us-section">
-      <div className="contact-us-div">
-
-      </div>
+       <div className="contact-us-div" style={{ display: "flex", alignItems: "flex-start", gap: "2rem" }}>
       <div>
-        <img className="contact-form-img" src="/website/assets/pictures/firstStudentOrgFair/firstStudentOrgFair5.jpg" alt="Contact Us Form Picture" />
+        <img className="contact-form-img" src="/assets/pictures/firstStudentOrgFair/firstStudentOrgFair5.jpg" alt="Contact Us Form Picture" />
       </div>
       <br></br>
       <div className="contact-form-div">
@@ -105,6 +103,7 @@ const Form = () => {
         <div className="result-message">
           {isSuccess ? <p className="page-p color-darkpurple"> Thank you for your message! We'll get back to you soon! ♡ </p> : <p className="error-msg">{result}</p>}
         </div>
+      </div>
       </div>
     </section>
   );

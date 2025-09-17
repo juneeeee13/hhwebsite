@@ -405,3 +405,19 @@
     }
 
 }
+
+@media (max-width: 900px) {
+  .benefits-container,
+  .who-container {
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .benefits-img,
+  .who-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
