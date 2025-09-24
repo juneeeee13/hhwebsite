@@ -199,15 +199,21 @@ const JoinUs = () => {
     <section className="join-us">
       <div className="join-us-container section-purple">
         <div>
-          <img className="join-us-img" src="/assets/misc/viasatMapView.png" />
+          <img className="join-us-img" src="/assets/misc/marksteinPic.png" />
         </div>
         <div className="join-statement-div">
           <h2 className="join-us-h2 page-h2 color-green">♡ Join Us</h2>
           <p className="join-us-p page-p color-white">
-            We have biweekly meetings on Tuesdays during U-Hour in VEP 5107. In these meetings, we go over important information, upcoming events, and opportunities to get involved! Become an official member <a href="https://csusm.presence.io/organization/harmony-hacks" className="bold-link" target="_blank" rel="noopener noreferrer">here</a>!
+            We have weekly meetings on a rotation schedule of Tuesdays and Fridays @ Markstein 208. In these meetings, we go over important information, upcoming events, and opportunities to get involved! Become an official member <a href="https://csusm.presence.io/organization/harmony-hacks" className="bold-link" target="_blank" rel="noopener noreferrer">here</a>!
           </p>
           <p className="join-us-p page-p color-white">
-            Join our Discord and follow our Instagram using the footer links below for any meeting updates and announcements of upcoming events!
+            Tuesdays: 12pm - 1pm
+          </p>
+          <p className="join-us-p page-p color-white">
+            Fridays: 9am-10am
+          </p>
+          <p className="join-us-p page-p color-white">
+            Join our Discord and follow our Instagram using the links below for any meeting updates and announcements of upcoming events!
           </p>
         </div>
       </div>

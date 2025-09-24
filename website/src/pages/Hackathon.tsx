@@ -23,11 +23,18 @@ const Register = () => {
                 <h2 className="page-h2 color-purple">♡ Next Hackathon: November 8, 2025 and November 15, 2025 </h2>
                 <div className="event-recap-button-group">
                     <a
-                        href={"https://forms.office.com/pages/responsepage.aspx?id=q1OHEijLgk-XMyubkdKsqTClqO-K43NPqGQTTTk2jvlUN0JTVkVMRkVZWFVKSllEUENIVVNXVTM4MC4u&route=shorturl"}
+                        href={"https://forms.office.com/Pages/ResponsePage.aspx?id=q1OHEijLgk-XMyubkdKsqd-dhMxlcAVLhfjDmSw0oyFUNE44Q0I2UkdKRElLRUQ1SEM0VEk5RVRHQS4u"}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         <button className="event-recap-button">♡ High School Students: Register Here ♡</button>
+                      </a>
+                    <a
+                        href={"https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=q1OHEijLgk-XMyubkdKsqU3fY5HNCQxOkWa6Kn4gTEdUMjI4NExGNVM1UFFQOVkyVjFCSlFWNFhOMS4u"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <button className="event-recap-button">♡ College Mentors: Apply Here ♡</button>
                       </a>
                 </div>
             </div>
