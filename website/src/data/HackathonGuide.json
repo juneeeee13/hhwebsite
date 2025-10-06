@@ -20,7 +20,7 @@
     {
         "id": 4,
         "hackathonStep_title": "Outreaching Locally",
-        "hackathonStep_description": "Our goal was to attract local high school girls to participate in the hackathon, making outreach a top priority. We created flyers that clearly explained the event and included a QR code linking to the hackathon registration form. These flyers were shared both physically and digitally. In addition, we contacted high school teachers, counselors, and administrators directly to encourage student participation. Promoting the event through the club’s Instagram and other social media platforms also helped spread the word quickly, but direct communication with schools proved to be the most effective strategy.",
+        "hackathonStep_description": "Our goal was to attract local high school students to participate in the hackathon, making outreach a top priority. We created flyers that clearly explained the event and included a QR code linking to the hackathon registration form. These flyers were shared both physically and digitally. In addition, we contacted high school teachers, counselors, and administrators directly to encourage student participation. Promoting the event through the club’s Instagram and other social media platforms also helped spread the word quickly, but direct communication with schools proved to be the most effective strategy.",
         "hackathonStep_image": "/assets/misc/firstHarmonyHackathonFlyer.png"
     },
     {
@@ -50,7 +50,7 @@
     {
         "id": 9,
         "hackathonStep_title": "Hackathon Kickoff",
-        "hackathonStep_description": "The hackathon officially began with a kickoff event that opened with an overview of the schedule and an inspirational talk about the intersection of encryption and music. To help participants feel comfortable, we ran a few icebreaker activities before assigning teams of three to four girls. Following team assignments, mentors led brief workshops: music mentors introduced fundamental music concepts, while coding mentors gave a lesson on encryption. These sessions provided participants with the foundational knowledge they needed to start brainstorming ideas for their projects. Food was provided for the kickoff.",
+        "hackathonStep_description": "The hackathon officially began with a kickoff event that opened with an overview of the schedule and an inspirational talk about the intersection of encryption and music. To help participants feel comfortable, we ran a few icebreaker activities before assigning teams of three to four students. Following team assignments, mentors led brief workshops: music mentors introduced fundamental music concepts, while coding mentors gave a lesson on encryption. These sessions provided participants with the foundational knowledge they needed to start brainstorming ideas for their projects. Food was provided for the kickoff.",
         "hackathonStep_image": "/assets/pictures/firstHackathon/firstWomensHackathonKickoff1.jpg"
     },
     {

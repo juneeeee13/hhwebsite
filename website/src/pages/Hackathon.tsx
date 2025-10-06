@@ -68,7 +68,7 @@ const HackathonHistory = () => {
             <div className="benefits-content-div">
             <h2 className="page-h2 benefits-h2">♡ What is the Harmony Hackathon?</h2>
             <p className="page-p benefits-p">
-                Founded by a team of faculty from both Computer Science and Music, this hackathon provides a unique opportunity for high school girls to combine computer programming and music in problem solving. The program activities are designed to help participants to
+                Founded by a team of faculty from both Computer Science and Music, this hackathon provides a unique opportunity for high school students to combine computer programming and music in problem solving. The program activities are designed to help participants to
             </p>
             <p className="page-p benefits-p">
               <ul className="custom-bullet-list">
@@ -102,7 +102,7 @@ const Who = () => {
         <div className="who-content-div">
             <h2 className="page-h2 who-h2">♡ Who Can Participate in This Event?</h2>
             <p className="page-p who-p">
-                We are looking for high school girls who are imaginative, creative, and out-of-the-box thinkers. They just need to be excited about technology and/or music, regardless of their skill levels.
+                We are looking for high school students who are imaginative, creative, and out-of-the-box thinkers. They just need to be excited about technology and/or music, regardless of their skill levels.
             </p>
             <p className="page-p who-p">
                 Participants do not need prior experience to join! We welcome anyone with all different skill levels. This hackathon is an opportunity to grow that skillset and connect with other girls who are interested in technology.
