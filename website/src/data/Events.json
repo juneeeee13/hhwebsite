@@ -142,5 +142,14 @@
     "location": "Markstein 103",
     "type": "GBM Events",
     "description": "Eigth General Body Meeting of the semester!"
+  },
+  {
+    "id": "17",
+    "title": "Student Org Market Day",
+    "start": "2025-10-09T11:30:00",
+    "end": "2025-10-09T13:00:00",
+    "location": "Outside the USU",
+    "type": "Fundraisers",
+    "description": "Come to our clothing pop-up!"
   }
 ]
