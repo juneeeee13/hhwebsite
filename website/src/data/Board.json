@@ -3,60 +3,60 @@
         "id": 1,
         "board_name": "Taylor Tucker",
         "board_position": "President",
-        "board_image": "assets/hhBoardSpring2026/taylor.png"
+        "board_image": "/assets/hhBoardSpring2026/HH Board member info Spring 2026/taylor.jpg"
     },
     {
         "id": 2,
         "board_name": "Yasmin Morales",
         "board_position": "Vice President",
-        "board_image": "/assets/hhBoardSpring2026/yasmin.png"
+        "board_image": "/assets/hhBoardSpring2026/HH Board member info Spring 2026/yasmin.png"
     },
     {
         "id": 3,
         "board_name": "Vivianna Canal",
         "board_position": "Secretary",
-        "board_image": "/assets/hhBoardSpring2026/vivianna.jpg"
+        "board_image": "/assets/hhBoardSpring2026/HH Board member info Spring 2026/vivianna.jpg"
     },
     {
         "id": 4,
         "board_name": "June Phillips",
         "board_position": "Website Master",
-        "board_image": "/assets/hhBoardSpring2026/june.jpg"
+        "board_image": "/assets/hhBoardSpring2026/HH Board member info Spring 2026/june.jpg"
     },
     {
         "id": 5,
         "board_name": "Erika Villalobos",
         "board_position": "Treasurer",
-        "board_image": "/assets/hhBoardSpring2026/erika.jpg"
+        "board_image": "/assets/hhBoardSpring2026/HH Board member info Spring 2026/erika.jpg"
     },
     {
         "id": 6,
         "board_name": "Chris Tran",
         "board_position": "Historian",
-        "board_image": "/assets/hhBoardSpring2026/chris.png"
+        "board_image": "/assets/hhBoardSpring2026/HH Board member info Spring 2026/chris.png"
     },
     {
         "id": 7,
         "board_name": "Lynda Nguyen",
         "board_position": "Fundraising Chair",
-        "board_image": "/assets/hhBoardSpring2026/lynda.jpg"
+        "board_image": "/assets/hhBoardSpring2026/HH Board member info Spring 2026/lynda.jpg"
     },
     {
         "id": 8,
         "board_name": "Alex Pantoja",
         "board_position": "Book Keeper",
-        "board_image": "/assets/hhBoardSpring2026/alex.jpg"
+        "board_image": "/assets/hhBoardSpring2026/HH Board member info Spring 2026/alex.jpg"
     },
     {
         "id": 9,
         "board_name": "Steph Hernandez",
         "board_position": "Media Manager",
-        "board_image": "/assets/hhBoardSpring2026/steph.jpg"
+        "board_image": "/assets/hhBoardSpring2026/HH Board member info Spring 2026/steph.jpg"
     },
     {
         "id": 10,
         "board_name": "Clara Benitez",
         "board_position": "Graphic Designer",
-        "board_image": "/assets/hhBoardSpring2026/clara.jpg"
+        "board_image": "/assets/hhBoardSpring2026/HH Board member info Spring 2026/clara.jpg"
     }
 ]

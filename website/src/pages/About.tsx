@@ -7,7 +7,6 @@ type BoardMember = {
   "id": number;
   "board_name": string;
   "board_position": string;
-  "board_email": string;
   "board_image": string;
 };
 
@@ -71,10 +70,9 @@ const Board = () => {
       <div className="about-board-cards-container">
         {contactData.map((member: BoardMember) => (
           <div key={member.id} className="about-board-card">
-            <img className="about-board-card-img" src={member.board_image || "/assets/temp.png"} alt={`${member.board_name}`} />
+            <img className="about-board-card-img" src={member.board_image} alt={`${member.board_name}`} />
             <h3 className="about-h3 color-darkpurple">{member.board_name}</h3>
             <h3 className="about-h3 color-darkpurple">{member.board_position}</h3>
-            <p className="page-p color-pink">{member.board_email}</p>
           </div>
         ))}
       </div>
