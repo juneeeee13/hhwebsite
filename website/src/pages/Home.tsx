@@ -18,6 +18,7 @@ const Home = () => {
 const images = [
   "/assets/pictures/newBoardPic.jpg",
   "/assets/pictures/firstHackathon/firstWomensHackathonShowcase4.jpg",
+   "/assets/pictures/fall2025hackathon/mentors6.JPG",
   "/assets/pictures/firstStudentOrgFair/firstStudentOrgFair4.jpg",
   "/assets/pictures/firstGbm/firstGbm2.jpg",
   "/assets/pictures/superStemSaturday/superStemSaturday3.jpg",

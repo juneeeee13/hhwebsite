@@ -20,17 +20,17 @@ const Register = () => {
     return (
         <section className="hackathon-event-section">
             <div>
-                <h2 className="page-h2 color-purple">♡ Next Hackathon: November 8, 2025 and November 15, 2025 </h2>
+                <h2 className="page-h2 color-purple">♡ Next Hackathon: April 18, 2026 and April 25, 2026</h2>
                 <div className="event-recap-button-group">
                     <a
                         href={"https://forms.office.com/Pages/ResponsePage.aspx?id=q1OHEijLgk-XMyubkdKsqd-dhMxlcAVLhfjDmSw0oyFUNE44Q0I2UkdKRElLRUQ1SEM0VEk5RVRHQS4u"}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <button className="event-recap-button">♡ High School Students: Register Here ♡</button>
+                        <button className="event-recap-button">♡ High School Students: Registration Opens Soon ♡</button>
                       </a>
                     <a
-                        href={"https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=q1OHEijLgk-XMyubkdKsqU3fY5HNCQxOkWa6Kn4gTEdUMjI4NExGNVM1UFFQOVkyVjFCSlFWNFhOMS4u"}
+                        href={"https://forms.cloud.microsoft/pages/responsepage.aspx?id=q1OHEijLgk-XMyubkdKsqd-dhMxlcAVLhfjDmSw0oyFUQk5RNUdYNlRRQVdJTENJTUk3OFpNU1JLRi4u&route=shorturl"}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -53,6 +53,9 @@ const HackathonEvent = () => {
                     </Link>
                     <Link to="/hackathonFall2025">
                         <button className="event-recap-button">♡ Fall 2025 ♡</button>
+                    </Link>
+                    <Link to="/hackathonSpring2026">
+                        <button className="event-recap-button">♡ Spring 2026 ♡</button>
                     </Link>
                 </div>
             </div>

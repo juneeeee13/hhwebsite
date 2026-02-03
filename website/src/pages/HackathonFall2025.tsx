@@ -18,7 +18,7 @@ const EventOverview = () => {
     <section className="event-overview">
       <div className="event-overview-container">
         <div>
-          <img className="event-overview-img" src="/assets/pictures/firstHackathon/firstWomensHackathonShowcase4.jpg" />
+          <img className="event-overview-img" src="/assets/pictures/fall2025hackathon/fullGroupPhoto1.JPG" />
           <Link to="/fall2025gallery">
             <button className="event-recap-button">♡ Gallery ♡</button>
         </Link>

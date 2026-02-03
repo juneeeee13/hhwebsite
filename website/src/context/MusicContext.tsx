@@ -43,7 +43,7 @@ export const MusicProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     if (audio) {
       audio.volume = volume;
       if (isPlaying) {
-        audio.play().catch(() => {});
+        audio.play().catch(err => console.error('Audio play failed:', err));
       } else {
         audio.pause();
       }
@@ -85,7 +85,7 @@ export const MusicProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     <MusicContext.Provider value={{ currentTrack, isPlaying, play, pause, next, previous, volume, setVolume, audioRef }}>
       <audio
         ref={audioRef}
-        src={`/website/assets/music/${currentTrack.filename}`}
+        src={`/assets/music/${currentTrack.filename}`}
         loop
         autoPlay={isPlaying}
       />

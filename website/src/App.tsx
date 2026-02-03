@@ -18,6 +18,8 @@ import HackathonFall2025 from './pages/HackathonFall2025';
 import OurProcess from './pages/OurProcess';
 import ContactPopup from './components/ContactPopUp';
 import HackathonGallery from './pages/Spring2025Gallery';
+import HackathonSpring2026 from './pages/HackathonSpring2026';
+import Fall2025HackathonGallery from './pages/Fall2025Gallery';
 
 localStorage.clear();
 
@@ -33,7 +35,7 @@ const InnerApp: React.FC = () => {
   const location = useLocation();
 
   // Show contact popup only on specific pages
-  const showContactPopup = ["/hackathon", "/hackathonSpring2025"].includes(location.pathname);
+  const showContactPopup = ["/hackathon", "/hackathonSpring2025", "/hackathonFall2025", "/hackathonSpring2026"].includes(location.pathname);
 
   return (
     <>
@@ -60,8 +62,10 @@ const InnerApp: React.FC = () => {
                       <Route path="/hackathon" element={<Hackathon />} />
                       <Route path="/hackathonSpring2025" element={<HackathonSpring2025 />} />
                       <Route path="/hackathonFall2025" element={<HackathonFall2025 />} />
+                      <Route path="/hackathonSpring2026" element={<HackathonSpring2026 />} />
                       <Route path="/ourProcess" element={<OurProcess />} />
                       <Route path="/spring2025gallery" element={<HackathonGallery />} />
+                      <Route path="/fall2025gallery" element={<Fall2025HackathonGallery />} />
                     </Routes>
                   </main>
                   <Footer />

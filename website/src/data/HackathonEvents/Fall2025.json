@@ -1,30 +1,37 @@
 [
     {
-        "groupname": "Junimo Squad ♡",
-        "awards": "First Byte Victory Award ☆☆☆☆☆ | Dream Team Award",
-        "tunepadlink": "https://tunepad.com/project/105836",
-        "grouppic": "/assets/pictures/firstHackathon/junimoSquadAward.jpg",
-        "songname": "junimo dance"
+        "groupname": "Jam Band ♡",
+        "awards": "First Byte Victory Award ☆☆☆☆☆",
+        "tunepadlink": "https://tunepad.com/project/118239",
+        "grouppic": "/assets/pictures/fall2025hackathon/team_JamBand.JPG",
+        "songname": "need to add"
     },
     {
-        "groupname": "Firewall Flowers ♡",
+        "groupname": "Awesome Saucers ♡",
         "awards": "Harmonic Hackers Award                       ",
-        "tunepadlink": "https://tunepad.com/project/105629",
-        "grouppic": "/assets/pictures/firstHackathon/firewallFlowersAward.jpg",
-        "songname": "firewall flower"
+        "tunepadlink": "https://tunepad.com/project/118229 ",
+        "grouppic": "/assets/pictures/fall2025hackathon/team_AwesomeSaucers.JPG",
+        "songname": "the awesome saucers' saucer song"
+    },                   
+    {
+        "groupname": "Egg Sheeran ♡",
+        "awards": "Relentless Rhythm Award                       ",
+        "tunepadlink": "https://tunepad.com/project/118237 ",
+        "grouppic": "/assets/pictures/fall2025hackathon/team_EggSheeran.jpg",
+        "songname": "team egg"
     },
     {
-        "groupname": "Code Blooded ♡",
-        "awards": "Creative Coders Award                       ",
-        "tunepadlink": "https://tunepad.com/project/105636#code",
-        "grouppic": "/assets/pictures/firstHackathon/codeBloodedAward.jpg",
-        "songname": "cryptic flow"
-    },
-    {
-        "groupname": "The Girls Who Can ♡",
+        "groupname": "Starfuit ♡",
         "awards": "Musicality Machines Award                       ",
-        "tunepadlink": "https://tunepad.com/project/105648#tracks",
-        "grouppic": "/assets/pictures/firstHackathon/girlsWhoCanAward.jpg",
-        "songname": "we can so we will"
+        "tunepadlink": "https://tunepad.com/project/118234 ",
+        "grouppic": "/assets/pictures/fall2025hackathon/team_Starfuit.JPG",
+        "songname": "need to add"
+    },
+    {
+        "groupname": "TIE ♡",
+        "awards": "Musicality Machines Award                       ",
+        "tunepadlink": "https://tunepad.com/project/118255 ",
+        "grouppic": "/assets/pictures/fall2025hackathon/team_TIE.JPG",
+        "songname": "krystal wafers"
     }
 ]
