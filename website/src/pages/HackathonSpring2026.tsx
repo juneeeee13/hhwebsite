@@ -16,11 +16,11 @@ const Register = () => {
                 <h2 className="page-h2 color-purple">♡ Next Hackathon: April 18, 2026 and April 25, 2026 </h2>
                 <div className="event-recap-button-group">
                     <a
-                        href={"https://forms.office.com/pages/responsepage.aspx?id=q1OHEijLgk-XMyubkdKsqTClqO-K43NPqGQTTTk2jvlUN0JTVkVMRkVZWFVKSllEUENIVVNXVTM4MC4u&route=shorturl"}
+                        href={"https://forms.cloud.microsoft/r/etvYNC2H7Y"}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <button className="event-recap-button">♡ Registration Opening Soon ♡</button>
+                        <button className="event-recap-button">♡ High School Student Registration ♡</button>
                       </a>
                 </div>
             </div>

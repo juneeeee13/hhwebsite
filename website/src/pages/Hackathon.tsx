@@ -23,14 +23,14 @@ const Register = () => {
                 <h2 className="page-h2 color-purple">♡ Next Hackathon: April 18, 2026 and April 25, 2026</h2>
                 <div className="event-recap-button-group">
                     <a
-                        href={"https://forms.office.com/Pages/ResponsePage.aspx?id=q1OHEijLgk-XMyubkdKsqd-dhMxlcAVLhfjDmSw0oyFUNE44Q0I2UkdKRElLRUQ1SEM0VEk5RVRHQS4u"}
+                        href={"https://forms.cloud.microsoft/r/etvYNC2H7Y"}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         <button className="event-recap-button">♡ High School Students: Registration Opens Soon ♡</button>
                       </a>
                     <a
-                        href={"https://forms.cloud.microsoft/pages/responsepage.aspx?id=q1OHEijLgk-XMyubkdKsqd-dhMxlcAVLhfjDmSw0oyFUQk5RNUdYNlRRQVdJTENJTUk3OFpNU1JLRi4u&route=shorturl"}
+                        href={"https://forms.cloud.microsoft/r/xgTUrgHNWu"}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
